@@ -1,0 +1,12 @@
+<div class="container">
+  <ul class="collection">
+    {{#each users}}
+      <li class="collection-item avatar">
+        <i class="material-icons circle">person</i>
+        <span class="title">{{this.name}}</span>
+        <p>{{this.email}}
+        </p>
+      </li>
+    {{/each}}
+  </ul>
+</div>
